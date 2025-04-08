@@ -1,6 +1,4 @@
-# Konfigurasi aplikasi
-
-import os
 class Config:
-    SQLALCHEMY_DATABASE_URI = os.environ.get('DATABASE_URL') or 'sqlite:///app.db'
+    DEBUG = True
+    SQLALCHEMY_DATABASE_URI = 'sqlite:///todo.db'  # atau database lain seperti MySQL/PostgreSQL
     SQLALCHEMY_TRACK_MODIFICATIONS = False

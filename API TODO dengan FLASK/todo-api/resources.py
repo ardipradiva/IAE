@@ -1,5 +1,3 @@
-# Logika endpoint API
-
 from flask_restful import Resource, request
 from models import Task, db
 from schemas import task_schema, tasks_schema

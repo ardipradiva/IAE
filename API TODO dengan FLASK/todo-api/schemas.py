@@ -1,5 +1,3 @@
-# Skema untuk validasi dan serialisasi
-
 from flask_marshmallow import Marshmallow
 from models import Task
 
